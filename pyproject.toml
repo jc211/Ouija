@@ -1,0 +1,21 @@
+[project]
+name = "ouija"
+version = "1.0.0"
+authors = [
+    { name="Jad Abou-Chakra"},
+    { name="Ben Burgess-Limerick"}
+]
+description = "A simple API to control the QCR 2D moving platform dubbed Ouija Board"
+readme = "README.md"
+requires-python = ">3.7"
+dependencies = [
+    "pyserial>=3.4",
+]
+
+[tool.setuptools]
+packages = [
+    "ouija",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jc211/Ouija"

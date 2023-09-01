@@ -11,6 +11,7 @@ This is an interface to move the platform onboard the Ouija Board built by Ben B
 - On Linux the port is usually `/dev/ttyACM0` and on Windows it is usually `COM5`
 - There is no way of knowing the current position of the platform.
 - There is no way of knowing when an operation is completed.
+- The Arduino on the board is running [GRBL](https://github.com/grbl/grbl) with feedback turned off.
 
 ## Example
 ```python
